@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spoorthi.fragmentexample.BillingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#98E9E8E6">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/useSameAdd"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:id="@+id/shippingAddressList">
+        </ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9A8D8D"
+            android:layout_below="@+id/shippingAddressList"
+            android:id="@+id/line_seperator"/>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line_seperator"
+            android:divider="#F1B8B7"
+            android:dividerHeight="1dp"
+            android:paddingLeft="35dp"
+            android:id="@+id/addingAddressFields">
+        </ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9A8D8D"
+            android:id="@+id/second_seperator"
+            android:layout_below="@+id/addingAddressFields"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/payment"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_corner_btn"
+            android:text="PROCEED TO PAYMENT"
+            android:layout_below="@+id/second_seperator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+    </RelativeLayout>
+
+
+</FrameLayout>

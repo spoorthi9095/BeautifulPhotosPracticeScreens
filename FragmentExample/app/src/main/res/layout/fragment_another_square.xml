@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/another_frag"
+    android:background="@drawable/aflower"
+    tools:context="com.example.spoorthi.fragmentexample.AnotherSquareFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gridView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:choiceMode="singleChoice"
+            android:numColumns="3" >
+        </GridView>
+    </RelativeLayout>
+
+</FrameLayout>

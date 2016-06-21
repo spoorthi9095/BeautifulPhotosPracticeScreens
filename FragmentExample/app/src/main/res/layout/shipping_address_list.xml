@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/address1"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <ImageButton
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:id="@+id/imageButton3"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_clear_black_24dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
